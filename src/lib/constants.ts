@@ -1,0 +1,1 @@
+export const DESCRIPTION = `Marre d'appeler des entreprises et d'entendre la même chose? "désolé, nous ne prenons pas de Stagiaire" ou "nous n'avons pas de place pour le moment " Laissez-nous vous aider à trouver le stage parfait sans passer par là !`;
