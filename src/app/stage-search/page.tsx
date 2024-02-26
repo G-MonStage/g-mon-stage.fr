@@ -9,6 +9,9 @@ import { useState } from "react";
 type Filiere = "Informatique" | "Commerce" | "Administration";
 type Entreprise = {
   nom_complet: string;
+  siege: {
+    adresse: string;
+  };
 };
 const stageSearch = () => {
   const [codePostal, setCodePostal] = useState("");
@@ -23,7 +26,7 @@ const stageSearch = () => {
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
     const activitePrincipale = activitePrincipaleCodes[filiere];
-    const url = `https://recherche-entreprises.api.gouv.fr/search?departement=${codePostal}&activite_principale=${activitePrincipale}`;
+    const url = `https://recherche-entreprises.api.gouv.fr/search?departement=${codePostal}&activite_principale=${activitePrincipale}&categorie_entreprise=PME,ETI&per_page=25`;
     try {
       const response = await fetch(url);
       if (!response.ok) throw new Error("Réponse bad request");
@@ -133,8 +136,9 @@ const stageSearch = () => {
         </div>
         <div>
           {entreprises.map((entreprise: Entreprise, index: number) => (
-            <div key={index}>
+            <div className="flex" key={index}>
               <p className="text-white py-1"> {entreprise.nom_complet}</p>
+              <p className="text-white py-1"> {entreprise.siege.adresse}</p>
             </div>
           ))}
         </div>
