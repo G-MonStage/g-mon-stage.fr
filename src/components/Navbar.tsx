@@ -37,65 +37,57 @@ export const Navbar = () => {
           <Button
             size="space"
             variant="danger"
-            href="/stage-search"
+            href="#features"
             leftIcon={<FormationIcon />}
             className={
-              pathName === "/stage-search"
+              pathName === "#features"
                 ? "text-gray-200 stroke-blue-400"
                 : "text-gray-300 stroke-gray-500 hover:stroke-blue-400 "
             }
           >
             {" "}
-            Chasse aux Stages{" "}
+            Qui sommes nous{" "}
           </Button>
 
           <Button
             size="space"
             variant="danger"
-            href="/premium"
+            href="#testimonials"
             leftIcon={<PremiumIcon />}
             className={
-              pathName === "/premium"
+              pathName === "#testimonials"
                 ? "text-gray-200 stroke-blue-400"
                 : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"
             }
           >
             {" "}
-            Bon Plans{" "}
+            Temoignages{" "}
           </Button>
 
           <Button
             size="space"
             variant="danger"
-            href="/blog"
+            href="#faq"
             leftIcon={<BlogIcon />}
             className={
-              pathName === "/blog"
+              pathName === "#faq"
                 ? "text-gray-200 stroke-blue-400"
                 : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"
             }
           >
             {" "}
-            Pour les Entreprises{" "}
+            Des questions ?{" "}
           </Button>
 
           {/*<Button size="space" variant="danger" href="/pricing" leftIcon={<ConferenceIcon/>}*/}
           {/*        className={asPath === "/pricing" ? "text-gray-200 stroke-blue-400" : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"}> Conférence </Button>*/}
         </div>
         <div className="hidden lg:flex items-center justify-end gap-4 lg:gap-3">
-          <div className="border-r border-gray-700 h-6" />
-          <Button
-            variant="tertiary"
-            rightIcon={
-              <GitHubIcon className="h-6 w-6 fill-current stroke-white" />
-            }
-            href="/login"
-          >
-            Connexion
-          </Button>
+
+
           <div className="border-r border-gray-700 h-1" />
           <Button variant="secondary" href="/register">
-            Inscription
+            Commencer
           </Button>
         </div>
       </div>

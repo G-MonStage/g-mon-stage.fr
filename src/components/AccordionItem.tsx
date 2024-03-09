@@ -14,14 +14,14 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ header, text }) => {
   };
 
   return (
-    <div className="mb-8 w-full rounded-xl bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-8 lg:px-6 xl:px-8">
+    <div className="mb-8 w-full text-zinc-200 text-base font-normal px-4 py-2 bg-gray-950 rounded-xl border border-blue-200 sm:p-6 lg:px-4 xl:px-6">
       <button
         className={`faq-btn flex w-full text-left`}
         onClick={(event) => handleToggle(event)}
       >
-        <div className="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/5">
+        <div className="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg">
           <svg
-            className={`fill-primary stroke-primary duration-200 ease-in-out ${
+            className={`fill-white stroke-white duration-200 ease-in-out ${
               active ? "rotate-180" : ""
             }`}
             width="17"
@@ -38,16 +38,16 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ header, text }) => {
         </div>
 
         <div className="w-full">
-          <h4 className="mt-1 text-lg font-semibold text-dark">{header}</h4>
+          <h4 className="mt-1 text-lg font-normal">{header}</h4>
         </div>
       </button>
 
       <div
-        className={`pl-[62px] duration-200 ease-in-out ${
+        className={`pl-[62px] ease-in-out ${
           active ? "block" : "hidden"
         }`}
       >
-        <p className="py-3 text-base leading-relaxed text-body-color dark:text-dark-6">
+        <p className="py-3 leading-relaxed">
           {text}
         </p>
       </div>

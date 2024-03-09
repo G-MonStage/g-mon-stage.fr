@@ -2,15 +2,15 @@ import { Testimonial } from "@/components/Testimonial";
 
 export const TestimonialsSection = () => {
   return (
-    <section>
-      <h1 className="text-white text-3xl mb-14 text-center font-bold">
-        Ce que les gens ont dit :
-      </h1>
-      <div className="flex rounded-xl ring-1 ring-[#A0CBFF]">
-        <Testimonial />
-        <Testimonial />
-        <Testimonial />
-      </div>
-    </section>
+      <section id='testimonials'>
+          <h1 className="text-zinc-200 text-5xl mb-14 text-center font-bold">
+              Temoignages
+          </h1>
+          <div className="flex flex-wrap justify-center text-center rounded-2xl border border-slate-400">
+              <Testimonial/>
+              <Testimonial/>
+              <Testimonial/>
+          </div>
+      </section>
   );
 };
