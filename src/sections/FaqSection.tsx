@@ -22,9 +22,9 @@ export const FaqSection = () => {
         </div>
 
         <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4 lg:w-1/2 ">
+          <div className="w-full pr-4 lg:w-1/2 ">
             <AccordionItem
-              header="Comment fonctionne la recherche de stage sur G mon stage ?"
+              header="Comment fonctionne la recherche de stage sur G mon stage?"
               text="Lorsque vous vous inscrivez sur notre plateforme, vous renseignez votre filière de bac professionnel et votre code postal. Ensuite, vous accédez à une liste d'entreprises correspondant à votre filière et à coter de chez vous, avec leur position géographique et leur nom. Vous pouvez alors rechercher ces entreprises par vous-même et postuler directement auprès d'elles."
             />
             <AccordionItem
@@ -36,7 +36,7 @@ export const FaqSection = () => {
               text="Nous sélectionnons les entreprises partenaires pour la version premium en fonction de leur pertinence avec les filières de bac professionnel que nous proposons sur notre plateforme. Nous nous assurons également de leur sérieux et de leur fiabilité, afin de garantir à nos utilisateurs des stages de qualité."
             />
           </div>
-          <div className="w-full px-4 lg:w-1/2">
+          <div className="w-full lg:w-1/2">
             <AccordionItem
               header="Comment postuler à un stage sur G mon stage ?"
               text=" Sur notre plateforme, nous ne proposons pas d'offres de stage à proprement parler. Nous mettons à votre disposition une liste d'entreprises correspondant à votre filière de bac professionnel, avec leur position géographique et leur nom. Vous pouvez alors rechercher ces entreprises par vous-même et postuler directement auprès d'elles. Si vous optez pour la version premium de notre plateforme, nous nous chargeons de transmettre votre profil (CV et lettre de motivation) à des entreprises partenaires correspondant à votre filière, grâce à un algorithme."
