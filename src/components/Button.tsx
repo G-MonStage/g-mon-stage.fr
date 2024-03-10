@@ -3,7 +3,7 @@ import Link from "next/link";
 import {HTMLAttributeAnchorTarget, MouseEventHandler, ReactNode} from "react";
 
 const style = cva(
-  'text-base leading-5 rounded border border-transparent transition-all duration-300 flex items-center hover:scale-105',
+  'text-base leading-5 rounded-lg border border-transparent transition-all duration-300 flex items-center hover:scale-105',
   {
     variants: {
       variant: {

@@ -14,7 +14,8 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ header, text }) => {
   };
 
   return (
-    <div className="mb-8 w-full text-zinc-200 text-base font-normal px-4 py-2 bg-gray-950 rounded-xl border border-blue-200 sm:p-6 lg:px-4 xl:px-6">
+    <div className="mb-8 w-full text-zinc-200 text-base font-normal px-4 py-2 bg-transparent rounded-xl border border-blue-500
+ sm:p-6 lg:px-4 xl:px-6">
       <button
         className={`faq-btn flex w-full text-left`}
         onClick={(event) => handleToggle(event)}
@@ -38,7 +39,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ header, text }) => {
         </div>
 
         <div className="w-full">
-          <h4 className="mt-1 text-lg font-normal">{header}</h4>
+          <h4 className="mt-1 text-lg font-semibold">{header}</h4>
         </div>
       </button>
 
@@ -47,7 +48,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ header, text }) => {
           active ? "block" : "hidden"
         }`}
       >
-        <p className="py-3 leading-relaxed">
+        <p className="py-3 text-zinc-300 leading-relaxed">
           {text}
         </p>
       </div>

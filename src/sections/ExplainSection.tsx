@@ -98,8 +98,9 @@ export const ExplainSection = () => {
           </div>
         </div>
         <div className="to-blue-1 hover:shadow-blue-1/40 flex-1 rounded-3xl bg-gradient-to-br from-[#C9E2FF] p-[1px] transition duration-300 hover:shadow-2xl">
-          <div className="bg-dark flex h-full flex-col justify-between rounded-3xl p-6 md:p-16">
-            <RunButtonImage />
+          <div className="bg-dark flex h-full flex-col justify-around rounded-3xl p-6 md:p-16">
+            <div className="flex justify-center"><RunButtonImage /></div>
+
             <div className="flex flex-col gap-4">
               <Text size="h2" className="text-center">Trouvez votre stage en 1 click</Text>
               <Text className="text-center">
