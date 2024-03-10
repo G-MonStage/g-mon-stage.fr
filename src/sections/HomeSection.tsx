@@ -31,14 +31,11 @@ export const HomeSection = () => {
                     >
 
                         <Text size="h1" variant="radialGradientWhite">
-          <span className="bg-gradient-to-r from-blue-600 to-indigo-900 bg-clip-text text-transparent">
-              Trouve&nbsp;
-            </span>
+                            <span
+                                className="bg-gradient-to-r from-blue-600 to-indigo-900 bg-clip-text text-transparent">Trouve&nbsp;</span>
                             dès maintenant ton&nbsp;
                             <span
-                                className="bg-gradient-to-r from-blue-600 to-indigo-900 bg-clip-text text-transparent">
-              Stage&nbsp;
-            </span>
+                                className="bg-gradient-to-r from-blue-600 to-indigo-900 bg-clip-text text-transparent">Stage&nbsp;</span>
                             avec nous !
                         </Text>
                     </MotionDiv>
@@ -62,15 +59,10 @@ export const HomeSection = () => {
 
                     <div className="flex items-center  justify-between">
 
-                        <Button variant="secondary" size="lg" className="justify-center justify-self-end" href="/search">
-                            Essayer gratuitement
+                        <Button variant="secondary" size="lg" className="justify-center justify-self-end"
+                                href="https://eleve.g-mon-stage.fr/dashboard">
+                            Commencer ma recherche !
                         </Button>
-                        <div className="border-r border-gray-700 h-5 mx-2"/>
-
-                        <Button variant="green" size="lg" className="justify-center justify-self-end" >
-                            Gauge Ecologique 🌴
-                        </Button>
-
                     </div>
 
 

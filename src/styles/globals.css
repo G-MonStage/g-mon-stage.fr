@@ -11,8 +11,6 @@ body {
   background-color: #050211;
 }
 
-
-
 *::selection {
   background-color: #A449FF;
   color: #fff;
@@ -94,6 +92,7 @@ body {
     transform: translate(0, calc(4 * 60 * -1px));
   }
 }
+
 
 @keyframes text-carousel-line {
   0% {
