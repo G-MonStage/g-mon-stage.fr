@@ -24,30 +24,30 @@ export const FaqSection = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-1/2 ">
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="Comment fonctionne la recherche de stage sur G mon stage ?"
+              text="Lorsque vous vous inscrivez sur notre plateforme, vous renseignez votre filière de bac professionnel et votre code postal. Ensuite, vous accédez à une liste d'entreprises correspondant à votre filière et à coter de chez vous, avec leur position géographique et leur nom. Vous pouvez alors rechercher ces entreprises par vous-même et postuler directement auprès d'elles."
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="En quoi consiste la version premium de G mon stage ?"
+              text="En souscrivant à la version premium de notre plateforme, nous nous chargeons de trouver un stage pour vous. Vous devrez nous fournir votre CV et votre lettre de motivation, que nous transmettrons à nos entreprises partenaires. Le coût de cette prestation dépend de votre niveau d'études : 10€ en seconde, 15€ en première et 20€ en terminale (Prix flexible en fonction de votre status)."
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="Comment les entreprises partenaires sont-elles sélectionnées pour la version premium ?"
+              text="Nous sélectionnons les entreprises partenaires pour la version premium en fonction de leur pertinence avec les filières de bac professionnel que nous proposons sur notre plateforme. Nous nous assurons également de leur sérieux et de leur fiabilité, afin de garantir à nos utilisateurs des stages de qualité."
             />
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="Comment postuler à un stage sur G mon stage ?"
+              text=" Sur notre plateforme, nous ne proposons pas d'offres de stage à proprement parler. Nous mettons à votre disposition une liste d'entreprises correspondant à votre filière de bac professionnel, avec leur position géographique et leur nom. Vous pouvez alors rechercher ces entreprises par vous-même et postuler directement auprès d'elles. Si vous optez pour la version premium de notre plateforme, nous nous chargeons de transmettre votre profil (CV et lettre de motivation) à des entreprises partenaires correspondant à votre filière, grâce à un algorithme."
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="Comment savoir si une entreprise a accepté ma candidature ?"
+              text="Si une entreprise est intéressée par votre profil, elle vous contactera directement pour vous proposer un entretien ou pour vous faire une proposition de stage. Nous vous conseillons donc de vérifier régulièrement vos emails et vos messages."
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="Est-il possible de postuler à plusieurs stages en même temps sur G mon stage ?"
+              text="Oui, il est tout à fait possible de postuler à plusieurs stages en même temps sur notre plateforme. Si vous optez pour la version premium, nous transmettons votre profil à plusieurs entreprises partenaires correspondant à votre filière. Nous vous recommandons cependant de personnaliser votre lettre de motivation en fonction de chaque entreprise, afin de maximiser vos chances d'être sélectionné. Si vous utilisez la version gratuite de notre plateforme, vous pouvez postuler auprès de plusieurs entreprises en les recherchant par vous-même à partir des informations que nous vous fournissons."
             />
           </div>
         </div>

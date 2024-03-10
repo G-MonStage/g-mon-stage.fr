@@ -86,8 +86,8 @@ export const Navbar = () => {
 
 
           <div className="border-r border-gray-700 h-1" />
-          <Button variant="secondary" href="/register">
-            Commencer
+          <Button variant="secondary" href="https://eleve.g-mon-stage.fr/dashboard">
+            Commencer Maintenant !
           </Button>
         </div>
       </div>
