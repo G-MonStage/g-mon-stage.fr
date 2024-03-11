@@ -31,12 +31,13 @@ export const HomeSection = () => {
                     >
 
                         <Text size="h1" variant="radialGradientWhite">
+                            Décroche ton
                             <span
-                                className="bg-gradient-to-r from-blue-600 to-indigo-900 bg-clip-text text-transparent">Trouve&nbsp;</span>
-                            dès maintenant ton&nbsp;
+                                className="bg-gradient-to-r from-blue-600 to-indigo-900 bg-clip-text text-transparent"> Stage&nbsp;</span>
+                            en toute&nbsp;
                             <span
-                                className="bg-gradient-to-r from-blue-600 to-indigo-900 bg-clip-text text-transparent">Stage&nbsp;</span>
-                            avec nous !
+                                className="bg-gradient-to-r from-blue-600 to-indigo-900 bg-clip-text text-transparent">Simplicité&nbsp;</span>
+                            !
                         </Text>
                     </MotionDiv>
                     <MotionDiv
@@ -61,7 +62,7 @@ export const HomeSection = () => {
 
                         <Button variant="secondary" size="lg" className="justify-center justify-self-end"
                                 href="https://eleve.g-mon-stage.fr/dashboard">
-                            Commencer ma recherche !
+                            Commencer ma recherche
                         </Button>
                     </div>
 

@@ -46,7 +46,7 @@ export const Navbar = () => {
             }
           >
             {" "}
-            Qui sommes nous{" "}
+            Fonctionnalités{" "}
           </Button>
 
           <Button
@@ -87,41 +87,26 @@ export const Navbar = () => {
 
           <div className="border-r border-gray-700 h-1" />
           <Button variant="secondary" href="https://eleve.g-mon-stage.fr/dashboard">
-            Commencer Maintenant !
+            Commencer Maintenant -{">"}
           </Button>
         </div>
       </div>
       {open ? (
-        <div className="text-grey flex flex-col gap-4 pt-12 text-lg">
-          <Link href="/search" scroll={false}>
-            Chasse aux Stages
-          </Link>
-          <div className="border-b-grey/20 border-b" />
-          <Link href="/premium">Bon Plans</Link>
-          <div className="border-b-grey/20 border-b" />
-          <Link
-            href="/premium"
-            className={
-              pathName.startsWith("/pricing") ? "!text-white" : undefined
-            }
-          >
-            Pour les Entreprises
-          </Link>
-          <div className="mt-6 flex justify-between gap-12">
-            <Button
-              variant="tertiary"
-              leftIcon={<GitHubIcon className="h-6 w-6 fill-current" />}
-              href="/login"
-              target="_blank"
-              className="flex-1"
-            >
-              Connexion
-            </Button>
-            <Button variant="secondary" href="/register" className="flex-1">
-              Inscription
-            </Button>
+          <div className="text-grey flex flex-col gap-4 pt-12 text-lg">
+            <Link href="#features" scroll={false}>
+              Fonctionnalités
+            </Link>
+            <div className="border-b-grey/20 border-b"/>
+            <Link href="#testimonials">Temoignages</Link>
+            <div className="border-b-grey/20 border-b"/>
+            <Link href="#faq">Des questions ?</Link>
+            <div className="border-b-grey/20 border-b"/>
+            <div className="mt-6 flex justify-center gap-12">
+              <Button variant="secondary" href="https://eleve.g-mon-stage.fr/dashboard">
+                Commencer Maintenant -{">"}
+              </Button>
+            </div>
           </div>
-        </div>
       ) : null}
     </header>
   );

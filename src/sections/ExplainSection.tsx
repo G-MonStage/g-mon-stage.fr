@@ -5,19 +5,19 @@ import {RunButtonImage} from "@/components/images/RunButtonImage";
 
 const TERMINAL: { text: string; write?: boolean }[] = [
   {
-    text: 'Bonjour je suis en recherche de stage...\n',
+    text: 'Bonjour, je suis en recherche de stage...\n',
     write: true,
   },
   {
-    text: '\nNan désoler nous ne prenons pas de stagiaire\n',
+    text: '\nNan, désolé, nous ne prenons pas de stagiaire.\n',
     write: true,
   },
   {
-    text: '\nMais laisser moi finir\n',
+    text: '\nMais laissez-moi finir...\n',
     write: true,
   },
   {
-    text: '\nAu revoir et bonne journée\n',
+    text: '\nAu revoir et bonne journée.\n',
     write: true,
   },
   {
@@ -102,9 +102,9 @@ export const ExplainSection = () => {
             <div className="flex justify-center"><RunButtonImage /></div>
 
             <div className="flex flex-col gap-4">
-              <Text size="h2" className="text-center">Trouvez votre stage en 1 click</Text>
+              <Text size="h2" className="text-center">Trouve ton stage sans galérer</Text>
               <Text className="text-center">
-                Pas de tracas, juste du fun. Un click et hop, c'est le grand saut vers votre futur stage.
+                Plus besoin de passer des heures à chercher, on s'occupe de tout. En un clic, accède à des centaines d'entreprises qui correspondent à ta filière et ton département. Alors, prêt à trouver ton stage de rêve ?
               </Text>
             </div>
           </div>
