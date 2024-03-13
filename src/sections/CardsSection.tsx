@@ -52,8 +52,8 @@ export const CardsSection = () => {
               </div>
             </div>
           }
-          title="Trouver un Stage en un Clic"
-          description="Fini le temps passé à chercher des stages. Un clic, et vous voilà prêt à découvrir une multitude d'opportunités."
+          title="Inscription rapide et simple"
+          description="Les élèves peuvent s'inscrire en quelques clics et renseigner leur filière pour accéder à une liste d'entreprises correspondantes. Pas besoin de se prendre la tête, on va droit au but !"
           delay={0.2}
         />
         <CustomCard
@@ -64,8 +64,8 @@ export const CardsSection = () => {
               </div>
             </div>
           }
-          title="Entreprises Engagées"
-          description="Nos entreprises partenaires s'engagent à recruter des stagiaires. Vous trouverez quelque chose ici."
+          title="Version premium abordable"
+          description="Selon ton année d'étude, tu peux choisir de passer en mode premium pour mettre toutes les chances de ton côté. Plus besoin de stresser pour trouver ton stage, on s'occupe de tout !"
           delay={0.4}
         />
         <CustomCard
@@ -76,8 +76,8 @@ export const CardsSection = () => {
               </div>
             </div>
           }
-          title="Diversité des Secteurs"
-          description="Peu importe votre spécialisation en Bac Pro, nous avons des stages pour tout le monde.Peu importe votre spécialisation en Bac Pro, nous avons des stages pour tout le monde."
+          title="Des données d'entreprises fiables"
+          description="On utilise des données provenant de l'état pour t'assurer un maximum de choix d'entreprises pour ton stage. Pas de fausses promesses, que du concret !"
           delay={0.6}
         />
         <CustomCard
@@ -88,8 +88,8 @@ export const CardsSection = () => {
               </div>
             </div>
           }
-          title="Contribuez à la Planète"
-          description="Chez nous, chaque abonnement aide à planter des arbres. Plus vous êtes nombreux à vous abonner, plus on fait du bien à notre Terre."
+          title="Un algorithme qui fait Mouche"
+          description="Notre algorithme est conçu pour t'envoyer aux entreprises qui correspondent le mieux à ton profil. Plus de temps perdu à postuler à des offres qui ne te correspondent pas, on vise juste !"
           delay={0.2}
         />
         <CustomCard
@@ -100,8 +100,8 @@ export const CardsSection = () => {
               </div>
             </div>
           }
-          title="Abonnement Flexible"
-          description="À partir de 4,99€ pour deux semaines, choisissez l'abonnement qui vous convient. Besoin de plus de temps ? C'est juste 1€ de plus par semaine."
+          title="Une commission Minime"
+          description="En choisissant la version premium, tu ne paies que 5% de ton salaire à chaque fin de stage. Pas de frais cachés, tout est transparent !"
           delay={0.4}
         />
         <CustomCard
@@ -112,8 +112,8 @@ export const CardsSection = () => {
               </div>
             </div>
           }
-          title="Recherche Rapide"
-          description="Grâce à notre moteur de recherche optimisé, trouvez votre stage idéal en quelques secondes."
+          title="Envoi automatique de ton profil"
+          description="Avec la version premium, ton CV et ta lettre de motivation sont envoyés directement aux entreprises partenaires qui correspondent à ta filière. Fini les heures passées à démarcher, on s'occupe de tout pour toi !"
           delay={0.6}
         />
       </div>
