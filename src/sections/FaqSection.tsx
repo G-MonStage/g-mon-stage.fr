@@ -1,4 +1,5 @@
 import AccordionItem from "@/components/AccordionItem";
+import Link from "next/link";
 
 export const FaqSection = () => {
   return (
@@ -14,8 +15,8 @@ export const FaqSection = () => {
                 Quelques questions ? Vous êtes au bonne endroit !
               </h2>
               <p className="text-stone-300">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Voici quelques questions fréquemment posées par nos utilisateurs.
+                Si vous ne trouvez pas la réponse à votre question, n'hésitez pas à nous contacter.
               </p>
             </div>
           </div>
@@ -50,6 +51,10 @@ export const FaqSection = () => {
               text="Oui, il est tout à fait possible de postuler à plusieurs stages en même temps sur notre plateforme. Si vous optez pour la version premium, nous transmettons votre profil à plusieurs entreprises partenaires correspondant à votre filière. Nous vous recommandons cependant de personnaliser votre lettre de motivation en fonction de chaque entreprise, afin de maximiser vos chances d'être sélectionné. Si vous utilisez la version gratuite de notre plateforme, vous pouvez postuler auprès de plusieurs entreprises en les recherchant par vous-même à partir des informations que nous vous fournissons."
             />
           </div>
+        </div>
+        <div className="flex justify-center gap-1 max-sm:flex-col max-sm:text-center">
+        <p className="text-center text-stone-300">Tu ne trouve pas la reponse a ta question ?</p>
+        <Link className="underline text-blue-600" target="_blank" href='https://www.instagram.com/g_mon_stage/'>Contacte nous</Link>
         </div>
       </div>
     </section>
