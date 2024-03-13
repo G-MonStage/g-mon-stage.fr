@@ -16,113 +16,98 @@ export const Navbar = () => {
   const pathName = usePathname();
 
   return (
-    <header className="bg-dark container sticky top-0 z-50 mx-auto rounded-md py-4 px-8 backdrop-blur md:rounded-[18px] outline outline-1 outline-gray-800">
-      <div className="flex items-center justify-between">
-        <Link href="/">
-          <Image
-            src="/logo-white.png"
-            width="130"
-            height="24"
-            alt="Lagon Logo"
-          />
-        </Link>
-        <button
-          className="px-4 md:hidden"
-          onClick={() => setOpen(!open)}
-          aria-label="Open menu"
-        >
-          {open ? <CloseIcon /> : <BurgerIcon />}
-        </button>
-        <div className="hidden gap-7 lg:gap-0.5 lg:flex">
-          <Button
-            size="space"
-            variant="danger"
-            href="#features"
-            leftIcon={<FormationIcon />}
-            className={
-              pathName === "#features"
-                ? "text-gray-200 stroke-blue-400"
-                : "text-gray-300 stroke-gray-500 hover:stroke-blue-400 "
-            }
-          >
-            {" "}
-            Qui sommes nous{" "}
-          </Button>
-
-          <Button
-            size="space"
-            variant="danger"
-            href="#testimonials"
-            leftIcon={<PremiumIcon />}
-            className={
-              pathName === "#testimonials"
-                ? "text-gray-200 stroke-blue-400"
-                : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"
-            }
-          >
-            {" "}
-            Temoignages{" "}
-          </Button>
-
-          <Button
-            size="space"
-            variant="danger"
-            href="#faq"
-            leftIcon={<BlogIcon />}
-            className={
-              pathName === "#faq"
-                ? "text-gray-200 stroke-blue-400"
-                : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"
-            }
-          >
-            {" "}
-            Des questions ?{" "}
-          </Button>
-
-          {/*<Button size="space" variant="danger" href="/pricing" leftIcon={<ConferenceIcon/>}*/}
-          {/*        className={asPath === "/pricing" ? "text-gray-200 stroke-blue-400" : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"}> Conférence </Button>*/}
-        </div>
-        <div className="hidden lg:flex items-center justify-end gap-4 lg:gap-3">
-
-
-          <div className="border-r border-gray-700 h-1" />
-          <Button variant="secondary" href="https://eleve.g-mon-stage.fr/dashboard">
-            Commencer Maintenant !
-          </Button>
-        </div>
-      </div>
-      {open ? (
-        <div className="text-grey flex flex-col gap-4 pt-12 text-lg">
-          <Link href="/search" scroll={false}>
-            Chasse aux Stages
+      <header className="bg-dark container sticky top-0 z-50 mx-auto rounded-md py-4 px-8 backdrop-blur md:rounded-[18px] outline outline-1 outline-gray-800">
+        <div className="flex items-center justify-between">
+          <Link href="/">
+            <Image
+                src="/logo-white.png"
+                width="130"
+                height="24"
+                alt="Lagon Logo"
+            />
           </Link>
-          <div className="border-b-grey/20 border-b" />
-          <Link href="/premium">Bon Plans</Link>
-          <div className="border-b-grey/20 border-b" />
-          <Link
-            href="/premium"
-            className={
-              pathName.startsWith("/pricing") ? "!text-white" : undefined
-            }
+          <button
+              className="px-4 md:hidden"
+              onClick={() => setOpen(!open)}
+              aria-label="Open menu"
           >
-            Pour les Entreprises
-          </Link>
-          <div className="mt-6 flex justify-between gap-12">
+            {open ? <CloseIcon /> : <BurgerIcon />}
+          </button>
+          <div className="hidden gap-7 lg:gap-0.5 lg:flex">
             <Button
-              variant="tertiary"
-              leftIcon={<GitHubIcon className="h-6 w-6 fill-current" />}
-              href="/login"
-              target="_blank"
-              className="flex-1"
+                size="space"
+                variant="danger"
+                href="#features"
+                leftIcon={<FormationIcon />}
+                className={
+                  pathName === "#features"
+                      ? "text-gray-200 stroke-blue-400"
+                      : "text-gray-300 stroke-gray-500 hover:stroke-blue-400 "
+                }
             >
-              Connexion
+              {" "}
+              Fonctionnalités{" "}
             </Button>
-            <Button variant="secondary" href="/register" className="flex-1">
-              Inscription
+
+            <Button
+                size="space"
+                variant="danger"
+                href="#testimonials"
+                leftIcon={<PremiumIcon />}
+                className={
+                  pathName === "#testimonials"
+                      ? "text-gray-200 stroke-blue-400"
+                      : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"
+                }
+            >
+              {" "}
+              Temoignages{" "}
+            </Button>
+
+            <Button
+                size="space"
+                variant="danger"
+                href="#faq"
+                leftIcon={<BlogIcon />}
+                className={
+                  pathName === "#faq"
+                      ? "text-gray-200 stroke-blue-400"
+                      : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"
+                }
+            >
+              {" "}
+              Des questions ?{" "}
+            </Button>
+
+            {/*<Button size="space" variant="danger" href="/pricing" leftIcon={<ConferenceIcon/>}*/}
+            {/*        className={asPath === "/pricing" ? "text-gray-200 stroke-blue-400" : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"}> Conférence </Button>*/}
+          </div>
+          <div className="hidden lg:flex items-center justify-end gap-4 lg:gap-3">
+
+
+            <div className="border-r border-gray-700 h-1" />
+            <Button variant="secondary" href="https://eleve.g-mon-stage.fr/dashboard">
+              Commencer Maintenant -{">"}
             </Button>
           </div>
         </div>
-      ) : null}
-    </header>
+        {open ? (
+            <div className="text-grey flex flex-col gap-4 pt-12 text-lg">
+              <Link href="#features" scroll={false}>
+                Fonctionnalités
+              </Link>
+              <div className="border-b-grey/20 border-b"/>
+              <Link href="#testimonials">Temoignages</Link>
+              <div className="border-b-grey/20 border-b"/>
+              <Link href="#faq">Des questions ?</Link>
+              <div className="border-b-grey/20 border-b"/>
+              <div className="mt-6 flex justify-center gap-12">
+                <Button variant="secondary" href="https://eleve.g-mon-stage.fr/dashboard">
+                  Commencer Maintenant -{">"}
+                </Button>
+              </div>
+            </div>
+        ) : null}
+      </header>
   );
 };

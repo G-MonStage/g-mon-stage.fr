@@ -24,14 +24,20 @@ export const Footer = () => {
                 <Text>Copyright © {new Date().getFullYear()} GMonStage</Text>
             </div>
             <div className="flex justify-end gap-8 ml-auto">
-                <Link target="_blank" href="https://www.instagram.com/g_mon_stage/" className=" bg-[#252134] rounded-2xl py-1 px-1">
-                    <Image src={"/Instagram.png"} width={34} height={34} alt={"Phone"}/>
+                <Link target="_blank" href="https://www.instagram.com/g_mon_stage/"
+                      className=" bg-[#252134] rounded-2xl py-1 px-1">
+                    <Image className="hover:scale-110 transition-all ease-in-out" src={"/Instagram.png"} width={34}
+                           height={34} alt={"Phone"}/>
                 </Link>
-                <Link target="_blank" href="https://www.linkedin.com/company/g-mon-stage/mycompany/" className=" bg-[#252134] rounded-2xl py-1 px-1">
-                    <Image src={"/Linkedin.png"} width={34} height={34} alt={"Phone"}/>
+                <Link target="_blank" href="https://www.linkedin.com/company/g-mon-stage/mycompany/"
+                      className=" bg-[#252134] rounded-2xl py-1 px-1">
+                    <Image className="hover:scale-110 transition-all ease-in-out" src={"/Linkedin.png"} width={34}
+                           height={34} alt={"Phone"}/>
                 </Link>
-            <Link target="_blank" href="https://www.tiktok.com/@gmonstage" className=" bg-[#252134] rounded-2xl py-1 px-1">
-                    <Image src={"/Tiktok.png"} width={34} height={34} alt={"Phone"}/>
+                <Link target="_blank" href="https://www.tiktok.com/@gmonstage"
+                      className=" bg-[#252134] rounded-2xl py-1 px-1">
+                    <Image className="hover:scale-110 transition-all ease-in-out" src={"/Tiktok.png"} width={34}
+                           height={34} alt={"Phone"}/>
                 </Link>
             </div>
         </footer>
