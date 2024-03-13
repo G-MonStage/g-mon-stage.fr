@@ -12,8 +12,8 @@ import BlogIcon from "./icons/navbar/BlogIcon";
 import { usePathname } from "next/navigation";
 
 export const Navbar = () => {
-  const [open, setOpen] = useState(false);
-  const pathName = usePathname();
+    const [open, setOpen] = useState(false);
+    const pathName = usePathname();
 
   return (
     <header className="bg-dark container sticky top-0 z-50 mx-auto rounded-md py-4 px-8 backdrop-blur md:rounded-[18px] outline outline-1 outline-gray-800">
@@ -48,43 +48,40 @@ export const Navbar = () => {
             {" "}
             Fonctionnalités{" "}
           </Button>
+                    <Button
+                        size="space"
+                        variant="danger"
+                        href="#testimonials"
+                        leftIcon={<PremiumIcon />}
+                        className={
+                            pathName === "#testimonials"
+                                ? "text-gray-200 stroke-blue-400"
+                                : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"
+                        }
+                    >
+                        {" "}
+                        Temoignages{" "}
+                    </Button>
 
-          <Button
-            size="space"
-            variant="danger"
-            href="#testimonials"
-            leftIcon={<PremiumIcon />}
-            className={
-              pathName === "#testimonials"
-                ? "text-gray-200 stroke-blue-400"
-                : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"
-            }
-          >
-            {" "}
-            Temoignages{" "}
-          </Button>
+                    <Button
+                        size="space"
+                        variant="danger"
+                        href="#faq"
+                        leftIcon={<BlogIcon />}
+                        className={
+                            pathName === "#faq"
+                                ? "text-gray-200 stroke-blue-400"
+                                : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"
+                        }
+                    >
+                        {" "}
+                        Des questions ?{" "}
+                    </Button>
 
-          <Button
-            size="space"
-            variant="danger"
-            href="#faq"
-            leftIcon={<BlogIcon />}
-            className={
-              pathName === "#faq"
-                ? "text-gray-200 stroke-blue-400"
-                : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"
-            }
-          >
-            {" "}
-            Des questions ?{" "}
-          </Button>
-
-          {/*<Button size="space" variant="danger" href="/pricing" leftIcon={<ConferenceIcon/>}*/}
-          {/*        className={asPath === "/pricing" ? "text-gray-200 stroke-blue-400" : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"}> Conférence </Button>*/}
-        </div>
-        <div className="hidden lg:flex items-center justify-end gap-4 lg:gap-3">
-
-
+                    {/*<Button size="space" variant="danger" href="/pricing" leftIcon={<ConferenceIcon/>}*/}
+                    {/*        className={asPath === "/pricing" ? "text-gray-200 stroke-blue-400" : "text-gray-300 stroke-gray-500 hover:stroke-blue-400"}> Conférence </Button>*/}
+                </div>
+                <div className="hidden lg:flex items-center justify-end gap-4 lg:gap-3">
           <div className="border-r border-gray-700 h-1" />
           <Button variant="secondary" href="https://eleve.g-mon-stage.fr/dashboard">
             Commencer Maintenant -{">"}
