@@ -31,7 +31,7 @@ export const Footer = () => {
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/company/g-mon-stage/mycompany/"
                       className=" bg-[#252134] rounded-2xl py-1 px-1">
-                    <Image className="hover:scale-110 transition-all ease-in-out" src={"/Linkedin.png"} width={34}
+                    <Image className="hover:scale-110 transition-all ease-in-out" src={"/LinkedIn.png"} width={34}
                            height={34} alt={"Phone"}/>
                 </Link>
                 <Link target="_blank" href="https://www.tiktok.com/@gmonstage"
@@ -41,6 +41,5 @@ export const Footer = () => {
                 </Link>
             </div>
         </footer>
-
     );
 };
