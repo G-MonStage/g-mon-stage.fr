@@ -109,12 +109,6 @@ export function FAQ() {
                             </section>
                         ))}
                     </div>
-                    <h4 className="mb-12 text-center text-sm font-medium tracking-tight text-foreground/80">
-                        Still have questions? Email us at{" "}
-                        <a href="mailto:support@example.com" className="underline">
-                            support@example.com
-                        </a>
-                    </h4>
                 </div>
             </div>
         </section>

@@ -124,9 +124,9 @@ export function CallToAction() {
 
     return (
         <section id="cta">
-            <div className="py-14">
+            <div className="py-8">
                 <div className="container flex w-full flex-col items-center justify-center p-4">
-                    <div className="relative flex w-full max-w-[1000px] flex-col items-center justify-center overflow-hidden rounded-[2rem] border">
+                    <div className="relative flex w-full max-w-[1440px] flex-col items-center justify-center overflow-hidden rounded-[2rem] border">
                         <Marquee
                             reverse
                             className="-delay-[200ms] [--duration:20s]"
@@ -164,7 +164,7 @@ export function CallToAction() {
                                     N'attendez plus pour trouver votre stage
                                 </h1>
                                 <p className="mt-2">
-                                    Commencez dès maintenant à chercher votre stage en quelques clics
+                                    Cherchez votre stage en quelques clics
                                 </p>
                                 <a
                                     href="/"

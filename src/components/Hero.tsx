@@ -25,9 +25,9 @@ export function Hero() {
 
     return (
         <section id="hero">
-            <div className="relative h-full overflow-hidden py-14">
+            <div className="relative h-full overflow-hidden py-8">
                 <div className="container z-10 flex flex-col">
-                    <div className=" grid grid-cols-1">
+                    <div className="grid grid-cols-1">
                         <div className="flex flex-col items-center gap-6 pb-8 text-center">
                             <motion.h1
                                 ref={fadeInRef}

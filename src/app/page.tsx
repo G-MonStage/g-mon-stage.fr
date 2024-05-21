@@ -41,7 +41,7 @@ const Home = () => {
 
             <Hero />
             <ExplainSection/>
-            <CardsSection/>
+            {/*<CardsSection/>*/}
             <CallToAction />
             <TestimonialsSection/>
             <FAQ/>
