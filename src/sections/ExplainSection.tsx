@@ -91,7 +91,7 @@ export const ExplainSection = () => {
               </div>
             </div>
             <div className="from-purple/10 to-blue-1/10 pointer-events-none absolute h-80 w-80 translate-x-[-30%] translate-y-[-30%] transform rounded-full bg-gradient-to-br opacity-0 blur-3xl transition duration-300 group-hover:opacity-100" />
-            <Text size="h2">On en a tous Marre</Text>
+            <Text size="h2" className="font-display">On en a tous Marre</Text>
             <Text paragraph>
               On connaît la musique... "Bonjour, je cherche un stage..." "Désolé, on ne prend pas de stagiaires." Stop au casse-tête! Ici, un clic suffit. On vous le promet, pas de raccrochage au nez.
             </Text>
@@ -102,7 +102,7 @@ export const ExplainSection = () => {
             <div className="flex justify-center"><RunButtonImage /></div>
 
             <div className="flex flex-col gap-4">
-              <Text size="h2" className="text-center">Trouve ton stage sans galérer</Text>
+              <Text size="h2" className="text-center font-display">Trouve ton stage sans galérer</Text>
               <Text className="text-center">
                 Plus besoin de passer des heures à chercher, on s'occupe de tout. En un clic, accède à des centaines d'entreprises qui correspondent à ta filière et ton département. Alors, prêt à trouver ton stage de rêve ?
               </Text>

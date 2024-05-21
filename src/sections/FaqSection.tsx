@@ -11,7 +11,7 @@ export const FaqSection = () => {
               <span className="mb-2 block text-lg font-semibold text-stone-300">
                 FAQ
               </span>
-              <h2 className="mb-4 text-3xl font-semibold text-stone-300 sm:text-5xl">
+              <h2 className="mb-4 text-3xl font-display text-stone-300 sm:text-5xl">
                 Quelques questions ? Vous êtes au bonne endroit !
               </h2>
               <p className="text-stone-300">

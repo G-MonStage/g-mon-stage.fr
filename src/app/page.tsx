@@ -6,6 +6,9 @@ import {useEffect, useRef} from "react";
 import {TestimonialsSection} from "@/sections/TestimonialsSection";
 import {FaqSection} from "@/sections/FaqSection";
 import {CardsSection} from "@/sections/CardsSection";
+import {FAQ} from "@/components/Faq1";
+import {CallToAction} from "@/components/CallToAction";
+import {Hero} from "@/components/Hero";
 
 const Home = () => {
     const ball = useRef<HTMLDivElement>(null);
@@ -34,11 +37,17 @@ const Home = () => {
                 className="from-purple/10 to-blue-1/10 pointer-events-none absolute hidden h-80 w-80 translate-x-[-50%] translate-y-[-50%] transform rounded-full bg-gradient-to-br blur-3xl md:block"
                 ref={ball}
             />
-            <HomeSection/>
+            {/*<HomeSection/>*/}
+
+            <Hero />
             <ExplainSection/>
             <CardsSection/>
+            <CallToAction />
             <TestimonialsSection/>
-            <FaqSection/>
+            <FAQ/>
+
+
+            {/*<FaqSection/>*/}
         </>
     );
 };

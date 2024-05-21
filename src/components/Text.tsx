@@ -5,9 +5,9 @@ import {HTMLAttributeAnchorTarget, ReactNode} from "react";
 const style = cva('', {
   variants: {
     size: {
-      h1: 'md:text-[64px] text-4xl font-semibold tracking-tight leading-[1.1]',
-      h2: 'md:text-5xl text-3xl font-semibold tracking-tight leading-tight',
-      h3: 'text-2xl font-semibold leading-tight',
+      h1: 'md:text-[64px] text-4xl fonts-semibold tracking-tight leading-[1.1] font-cal',
+      h2: 'md:text-5xl text-3xl fonts-semibold tracking-tight leading-tight',
+      h3: 'text-2xl fonts-semibold leading-tight',
       p: 'text-[#7F92AF] text-base',
       li: 'text-[#7F92AF] text-base list-disc',
       a: 'text-[#7F92AF] text-base hover:text-white transition',
@@ -15,7 +15,7 @@ const style = cva('', {
     },
     variant: {
       default: 'text-white',
-      bold: '!text-white font-semibold',
+      bold: '!text-white fonts-semibold',
       radialGradientWhite: 'text-transparent bg-clip-text bg-radial-gradient-white',
       linearGradiantGray: '!text-transparent bg-clip-text bg-gradient-to-br from-white via-white to-gray-700',
     },

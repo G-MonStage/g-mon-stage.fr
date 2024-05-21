@@ -21,7 +21,7 @@ export const RunButtonImage = () => (
         <path d="M158.051 119.065V159.778L168.957 149.237L170.411 148.873H187.859L158.051 119.065Z" fill="#01050E"/>
         <defs>
             <filter id="filter0_d_1_201" x="0" y="0.341553" width="351" height="170" filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB">
+                    colorInterpolationFilters="sRGB">
                 <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
                                result="hardAlpha"/>

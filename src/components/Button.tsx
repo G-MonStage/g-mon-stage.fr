@@ -11,7 +11,7 @@ const style = cva(
         secondary: 'bg-gradient-secondary-button text-white',
         tertiary: 'bg-gradient-tertiary-button text-grey ',
         green: 'bg-gradient-danger-button text-white ',
-        danger: "hover:text-blue-100 font-bold tracking-normal ", // font-mono font-serif font-sans
+        danger: "hover:text-blue-100 fonts-bold tracking-normal ", // fonts-mono fonts-serif fonts-sans
       },
       size: {
         space: "px-2 py-2 gap-2",
